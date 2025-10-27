@@ -1,0 +1,17 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "ALLOW-FROM https://estudioambiental.com"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors https://estudioambiental.com https://*.estudioambiental.com"
+        }
+      ]
+    }
+  ]
+}
