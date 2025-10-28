@@ -5,11 +5,11 @@
       "headers": [
         {
           "key": "X-Frame-Options",
-          "value": "ALLOW-FROM https://estudioiambiental.com"
+          "value": "ALLOW-FROM https://estudioambiental.com"
         },
         {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors https://estudioiambiental.com https://*.estudioiambiental.com"
+          "value": "frame-ancestors https://estudioambiental.com https://*.estudioambiental.com https://openai-chatkit-app.vercel.app https://*.vercel.app"
         }
       ]
     }
