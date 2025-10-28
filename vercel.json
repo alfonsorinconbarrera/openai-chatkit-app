@@ -5,11 +5,11 @@
       "headers": [
         {
           "key": "X-Frame-Options",
-          "value": "ALLOW-FROM https://estudioambiental.com"
+          "value": "ALLOW-FROM https://estudioiambiental.com"
         },
         {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors https://estudioambiental.com https://*.estudioambiental.com"
+          "value": "frame-ancestors https://estudioiambiental.com https://*.estudioiambiental.com"
         }
       ]
     }
